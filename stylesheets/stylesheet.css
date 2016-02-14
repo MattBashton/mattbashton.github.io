@@ -35,11 +35,11 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 75em) {
   .btn {
     padding: 0.75rem 1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 75em) {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem; } }
@@ -55,10 +55,12 @@ a:hover {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #000;
   text-align: center;
-  background: #56687C url('../img/cover.jpg') no-repeat 50%;
-  background-size: cover;
+  background: #828a91 url('../img/sunset.png') no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  background-attachment: scroll;
 }
 
 @media screen and (min-width: 64em) {
@@ -78,13 +80,13 @@ a:hover {
   margin-bottom: 0.1rem; }
 
 .header-link  {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     transition: 0.4s;
 }
 
 .header-link:hover {
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    text-shadow: 0 0 10px rgba(255, 141, 0, 1);
     transition: 0.3s;
     text-decoration: none;
 }

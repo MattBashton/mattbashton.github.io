@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test Blog</title>
-    <description>A test blog</description>
+    <title>Matt Bashton&#39;s Blog</title>
+    <description>Matt Bashton&#39;s Blog</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Feb 2016 17:17:46 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Feb 2016 17:17:46 +0000</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2016 18:56:24 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 18:56:24 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
