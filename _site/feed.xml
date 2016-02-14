@@ -3,22 +3,11 @@
   <channel>
     <title>Matt Bashton&#39;s Blog</title>
     <description>My blog on Bioinformatics and other things</description>
-    <link>http://mattbashton.github.io/</link>
-    <atom:link href="http://mattbashton.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Feb 2016 21:18:23 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Feb 2016 21:18:23 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Feb 2016 21:22:07 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 21:22:07 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
-    
-      <item>
-        <title>Test</title>
-        <description>&lt;p&gt;Test post.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-        <link>http://mattbashton.github.io/test-post</link>
-        <guid isPermaLink="true">http://mattbashton.github.io/test-post</guid>
-        
-        
-      </item>
     
       <item>
         <title>Another post</title>
@@ -34,8 +23,19 @@
 
 </description>
         <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-        <link>http://mattbashton.github.io/another-post</link>
-        <guid isPermaLink="true">http://mattbashton.github.io/another-post</guid>
+        <link>/another-post</link>
+        <guid isPermaLink="true">/another-post</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Test</title>
+        <description>&lt;p&gt;Test post.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Feb 2016 00:00:00 +0000</pubDate>
+        <link>/test-post</link>
+        <guid isPermaLink="true">/test-post</guid>
         
         
       </item>
@@ -44,9 +44,9 @@
         <title>About me</title>
         <description>&lt;p&gt;Some text about me.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-        <link>http://mattbashton.github.io/about</link>
-        <guid isPermaLink="true">http://mattbashton.github.io/about</guid>
+        <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
+        <link>/about</link>
+        <guid isPermaLink="true">/about</guid>
         
         
       </item>
