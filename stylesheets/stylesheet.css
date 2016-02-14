@@ -14,7 +14,10 @@ a {
   text-decoration: none; }
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(255, 141, 0, 1);
+  transition: 0.3s;
+}}
 
 .btn {
   display: inline-block;
@@ -89,6 +92,29 @@ a:hover {
     text-shadow: 0 0 10px rgba(255, 141, 0, 1);
     transition: 0.3s;
     text-decoration: none;
+}
+
+.header-twitter  {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.header-twitter:hover {
+    text-shadow: 0 0 10px rgba(255, 141, 0, 1);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.image-alpha {
+  opacity: 0.7;
+}
+
+.header-desc  {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    transition: 0.4s;
+    font-style: italic;
 }
 
 @media screen and (min-width: 64em) {
@@ -273,6 +299,13 @@ a:hover {
 .post-title {
   font-size: 1.85rem;
 }
+
+.post-title:hover {
+    text-shadow: 0 0 10px rgba(255, 141, 0, 1);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
 
 .post-header .post-link {
   text-decoration: none;

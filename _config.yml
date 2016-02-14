@@ -7,10 +7,11 @@
 
 # Site settings
 title: "Matt Bashton's Blog"
-description: "Matt Bashton's Blog" # write a nice description for your blog
+description: "My blog on Bioinformatics and other things" # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
+
 twitter_username: 'MattBashton'
 
 # Build settings
