@@ -82,7 +82,8 @@ a:hover {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
-.header-link  {
+.header-link {
+    font-family: Michroma, Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     transition: 0.4s;
@@ -94,7 +95,8 @@ a:hover {
     text-decoration: none;
 }
 
-.header-twitter  {
+.header-twitter {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     transition: 0.4s;
@@ -110,11 +112,17 @@ a:hover {
   opacity: 0.7;
 }
 
-.header-desc  {
+.header-desc {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     transition: 0.4s;
     font-style: italic;
+}
+
+.home-link {
+  text-align: center;
+  font-family: Michroma, Helvetica, Arial, sans-serif;
 }
 
 @media screen and (min-width: 75em) {
@@ -154,7 +162,7 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #5F7585;
+  color: #828a91;
 }
 .main-content p {
   margin-bottom: 1em; }
@@ -297,6 +305,7 @@ a:hover {
 }
 
 .post-title {
+  font-family: Michroma, Helvetica, Arial, sans-serif;
   font-size: 1.85rem;
 }
 
