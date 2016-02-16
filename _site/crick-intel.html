@@ -8,11 +8,11 @@
   <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/stylesheets/stylesheet.css">
   <link rel="stylesheet" href="/stylesheets/syntax.css">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/crick-intel">
   <link rel="alternate" type="application/rss+xml" title="Matt Bashton's Blog" href="/feed.xml">
-  <meta name="description" content="My blog on Bioinformatics and other things">
+  <meta name="description" content="Originally posted on the 7th of October 2013">
 
-  <title>Matt Bashton's Blog</title>
+  <title>Intel-Crick NGS workshop</title>
 
   
 
@@ -32,18 +32,15 @@
 
     <section class="main-content">
       <div class="wrapper">
-        
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="main-content" itemprop="articleBody">
-
   <header class="post-header">
-      <a class="post-link" href="/crick-intel"><h1 class="post-title" itemprop="name headline">  Intel-Crick NGS workshop</h1> </a>
-
+    <h1 class="post-title" itemprop="name headline">Intel-Crick NGS workshop</h1>
+   <p class="post-meta"><time datetime="2016-02-16T00:00:00+00:00" itemprop="datePublished">Feb 16, 2016</time></p>
   </header>
 
-    <p><em>Originally posted on the 7th of October 2013</em></p>
+  <p><em>Originally posted on the 7th of October 2013</em></p>
 
 <p>Early in September I had the opportunity to attend the inaugural <a href="http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/eventssummary/event_21-6-2013-12-4-35">Crick-Intel Workshop</a> on “Computational challenges and performance optimizations in NGS data analyses”.  This course was designed jointly by Intel and the Crick institute to address performance issues relating to the analysis of Next Generation Sequencing (NGS) data and train the participants in the practicalities of optimising NGS analysis pipelines.</p>
 
@@ -68,112 +65,32 @@
 <p>Overall the meeting was very informative and gave those attending a good insight and overview of both hardware, infrastructure, and software routes to optimise analysis pipelines for the ensuing NGS data deluge.  I shall undoubtedly be implementing some of the ideas covered in an analysis pipeline soon!</p>
 
 
- <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="2016-02-16T00:00:00+00:00" itemprop="datePublished">Feb 16, 2016</time> • <a href="/crick-intel">permalink</a></p>
+  
+  <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'mattbashtonsblog'; // required: replace example with your forum shortname
+          // var disqus_developer = 1; // Comment out when the site is live
+          var disqus_identifier = "/crick-intel";
 
-  </div>
-
-</article>
-
-
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <div class="main-content" itemprop="articleBody">
-
-  <header class="post-header">
-      <a class="post-link" href="/openashdieback"><h1 class="post-title" itemprop="name headline">  Contributing to the OpenAshDieBack crowd sourced effort</h1> </a>
-
-  </header>
-
-    <p><em>Originally posted on 12th of February 2013</em></p>
-
-<p>Just before finishing for Christmas last year I became interested in the <a href="http://oadb.tsl.ac.uk/">crowd sourced effort</a> to analyse the fungal disease currently affecting ash trees.  The disease is caused by the <a href="https://en.wikipedia.org/wiki/Hymenoscyphus_fraxineus"><em>Hymenoscyphus fraxineus</em></a> fungus. The data for the project was quickly released following initial sequencing runs via <a href="https://github.com/">GitHub</a>. This is similar to an approach taken with sequencing data from the <a href="https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis">german E. coli O104:H4 outbreak</a> and meant various scientists around the world could get their hands on the raw data and contribute analysis of it to the collective effort by uploading their results directly to GitHub.</p>
-
-<p>So far I have contributed:</p>
-
-<ul>
-  <li>
-    <p><a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/FastQC">FastQC</a> reports of the released RNAseq reads.</p>
-  </li>
-  <li>
-    <p>Assemblies of both the <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT1/assemblies">AT1</a> and <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT2/assemblies">AT2</a> mixed interaction transcriptome produced using <a href="https://github.com/trinityrnaseq/trinityrnaseq/wiki">Trinity</a>, this contained reads from both the fungus and host tree, although most of the material appeared to be fungal.</p>
-  </li>
-  <li>
-    <p>Likely coding sequences for both the Trinity derived <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT1/likely_coding_sequences">AT1</a> and <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT2/likely_coding_sequences">AT2</a> transcripts.</p>
-  </li>
-  <li>
-    <p><a href="http://pfam.xfam.org/">Pfam</a> and <a href="http://supfam.org/SUPERFAMILY/">SUPERFAMILY</a> HMM based domain assignments for these coding sequences, <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT1/PfamA_Vs_AT1_CDS">here</a>, <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT1/SUPERFAMILY_domain_assignments">here</a>, <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT2/PfamA_Vs_AT2_CDS">here</a> and <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT2/SUPERFAMILY_domain_assignments">here</a>.</p>
-  </li>
-  <li>
-    <p>Detected <a href="http://www.sciencedirect.com/science/article/pii/S0031942205006758">NPP1-like necrosis inducing protein domains</a> (aka Nep1-like proteins) found in the <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT1/NPP1_domains">AT1</a> and <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/ashwellthorpe_AT2/NPP1_domains">AT2</a> samples using the HMM for the <a href="http://pfam.xfam.org/family/PF05630">NPP1 Pfam family</a> with <a href="http://hmmer.org/">HMMER</a>.</p>
-  </li>
-  <li>
-    <p>A <a href="https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/Helotiales_NPP1_domains_and_AT1_AT2_NPP1_aligned">multiple alignment</a> of all AT1 and AT2 NPP1-like necrosis inducing proteins domains aligned with fungal homologues from the <a href="https://en.wikipedia.org/wiki/Helotiales">Helotiales</a> order (which contains many plant pathogens) detected using an iterative <a href="https://www.ebi.ac.uk/Tools/hmmer/search/jackhmmer">Jackhmmer</a> run (using the AT1 and AT2 sequences as a seed) over Uniprot.  <em>Hymenoscyphus fraxineus</em> is its self part of this order so considering other necrosis inducing proteins from similar pathogenic fungi my be useful for investigating pathogenesis.</p>
-  </li>
-</ul>
-
-<p>An initial publication detailing the crowd sourced effort has been published in <a href="http://gigascience.biomedcentral.com/articles/10.1186/2047-217X-2-2">GigaScience</a>.  Currently I’m quite busy with a number of projects here at Newcastle but I hope to contribute more analysis to this project soon.</p>
-
-
- <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="2016-02-16T00:00:00+00:00" itemprop="datePublished">Feb 16, 2016</time> • <a href="/openashdieback">permalink</a></p>
-
-  </div>
-
-</article>
-
-
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <div class="main-content" itemprop="articleBody">
-
-  <header class="post-header">
-      <a class="post-link" href="/a-new-blog"><h1 class="post-title" itemprop="name headline">  A new blog</h1> </a>
-
-  </header>
-
-    <p>I’ve decided to repost here various blog posts perviously hosted at the <a href="http://bsu.ncl.ac.uk/support/">Bioinformatics Support Unit (BSU)</a> site.  I hope to add more new content in the near future.</p>
-
-
- <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="2016-02-15T00:00:00+00:00" itemprop="datePublished">Feb 15, 2016</time> • <a href="/a-new-blog">permalink</a></p>
-
-  </div>
-
-</article>
-
-
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <div class="main-content" itemprop="articleBody">
-
-  <header class="post-header">
-      <a class="post-link" href="/about"><h1 class="post-title" itemprop="name headline">  About me</h1> </a>
-
-  </header>
-
-    <p>I’ve been working in bioinformatics since 1999 in various areas: protein families, structural bioinformatics, protein domains (function and evolution), structural genomics, ligand-protein interactions, chemoinformatics, microarrays, high-throughput sequencing, RNA-Seq, variant calling, cluster pipeline creation, and cancer bioinformatics.</p>
-
-<p>Following a brief stint as a summer student working on <a href="http://pfam.xfam.org/">Pfam</a> with <a href="http://www.ebi.ac.uk/about/people/alex-bateman">Alex Bateman</a> then at the <a href="http://www.sanger.ac.uk/">Sanger</a>, I did my PhD in the research group of <a href="http://www2.mrc-lmb.cam.ac.uk/group-leaders/emeritus/cyrus-chothia/">Cyrus Chothia</a> at the <a href="http://www2.mrc-lmb.cam.ac.uk/">MRC Laboratory of Molecular Biology</a> in Cambridge on the evolution of protein function via the combination of protein domains.  I then worked as a postdoc in the group of <a href="http://www.ebi.ac.uk/about/people/janet-thornton">Janet Thornton</a> at the <a href="http://www.ebi.ac.uk/">EBI</a> as part of the <a href="http://www.mcsg.anl.gov/">Midwest Centre for Structural Genomics (MCSG)</a> from there I refocused my efforts to high-throughput methods working in the <a href="http://bsu.ncl.ac.uk/support/">Bioinformatics Support Unit (BSU)</a> - core facility at Newcastle University with <a href="http://bsu.ncl.ac.uk/support/staff/simon-cockell/">Simon Cockell</a>.  During which time I developed an interest in cancer genomics moving on to the <a href="http://www.ncl.ac.uk/nicr/">Northern Institute for Cancer Research (NICR)</a>.</p>
-
-<p>My publications can be found <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=bashton+m">here</a>.</p>
-
-
- <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="2016-02-14T00:00:00+00:00" itemprop="datePublished">Feb 14, 2016</time> • <a href="/about">permalink</a></p>
-
-  </div>
-
-</article>
-
-
-
-<div class="pagination" style="text-align: center;">
-
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   
 
-  
 
-</div>
+
+  </div>
+
+<a href="/"><h3 class="home-link">- home -</h3></a>
+
+</article>
 
       </div>
     </div>
