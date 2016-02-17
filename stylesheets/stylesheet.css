@@ -62,7 +62,7 @@ a:hover {
   text-align: center;
   background: #828a91 url('../img/sunset.png') no-repeat;
   background-position: bottom;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: scroll;
 }
 
