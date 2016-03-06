@@ -9,6 +9,7 @@ _Originally posted on 12th of February 2013_
 
 Just before finishing for Christmas last year I became interested in the [crowd sourced effort](http://oadb.tsl.ac.uk/) to analyse the fungal disease currently affecting ash trees.  The disease is caused by the [_Hymenoscyphus fraxineus_](https://en.wikipedia.org/wiki/Hymenoscyphus_fraxineus) fungus. The data for the project was quickly released following initial sequencing runs via [GitHub](https://github.com/). This is similar to an approach taken with sequencing data from the [german E. coli O104:H4 outbreak](https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis) and meant various scientists around the world could get their hands on the raw data and contribute analysis of it to the collective effort by uploading their results directly to GitHub.
 <!--more-->
+
 So far I have contributed:
 
 - [FastQC](https://github.com/ash-dieback-crowdsource/data/tree/master/ash_dieback/mixed_material/FastQC) reports of the released RNAseq reads.
